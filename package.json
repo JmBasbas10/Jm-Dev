@@ -1,8 +1,8 @@
 {
+  "homepage": "https://JmBasbas10.github.io/Jm-Dev",
   "name": "jmdev",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://JmBasbas10.github.io/jmDev",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
