@@ -1,0 +1,557 @@
+
+@media screen and (max-width:1100px){
+    .webHeader {
+        width: 880px;
+    }
+    .webBody {
+        width: 920px;
+    }
+
+    /* About Page */
+    .awards h5 {
+        font-size: 12px;
+    }
+
+    /* Project Page */
+    .allProjects {
+        width: 380px;
+    }
+    .projectDetails h2 {
+        font-size: 20px;
+    }
+    .projectDetails p {
+        font-size: 15px;
+    }
+    .projectTools h5 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1001px) {
+    
+    .webHeader {
+        width: 800px;
+    }
+    .webBody {
+        width: 840px;
+    }
+    .name h2{
+        font-size: 27px;
+        }
+        
+    .middleName{
+        left:167px ;
+    }
+
+    .lastName{
+        left:290px ;
+    }
+        
+    .knowMe p {
+        font-size: 14px;
+    }
+
+    .skills h5 {
+        font-size: 10px;
+    }
+    .school h3 {
+        width: 100%;
+    }
+
+    /* Project Page */
+    .allProjects {
+        width: 300px;
+    }
+    .projectCard img{
+        width: 100px;
+    }
+    .projectDetails h2 {
+        font-size: 20px;
+    }
+    .projectDetails p {
+        font-size: 14px;
+    }
+    .projectTools h5 {
+        font-size: 12px;
+    }
+    .messageMe input[type = "email"], .messageMe input[type = "text"] {
+        width: 380px;
+    }
+    .messageMe textarea {
+        width: 400px;
+    }
+} 
+
+@media screen and (max-width: 900px) {
+    .mainContent {
+        padding-right: 20px;
+    }
+    .allProjects {
+        width: 380px;
+    }
+    .webHeader {
+        width: 700px;
+    }
+    .webBody {
+        width: 740px;
+    }
+    .profile {
+        position: relative;
+        z-index: 1;
+        padding: 10px;
+        width: 60px;
+        height: 540px;
+    }
+    .profilePic1 {
+        display: block;
+        border-radius: 59% 41% 32% 68% / 62% 48% 52% 38%    ;
+        box-shadow: 0px 0px 20px #b5ffe4, 0px 0px 10px white;
+        animation: spinGlow 10s linear infinite;
+        border: solid 2px #7aeec3;
+        width: 50px;
+    }
+    .contact, .contactContainer {
+        width: fit-content;
+    }
+    .contactIcon{
+        margin-right: 0;
+    }
+    .details {
+        position: absolute;
+        background-color: rgb(23, 26, 37);
+        padding: 20px 30px;
+        width: 240px;
+        right: -275px;
+        box-shadow: 0px 0px 10px#00ffa2;
+        display: none;
+        border-radius: 20px;
+    }
+    .detailsContainer:hover .details{
+        display: flex;
+    }
+    .contact{
+        position: relative;
+        justify-content: none;
+    }
+    .contact h3 {
+        position: absolute;
+        right: -245px;
+        background-color: rgb(23, 26, 37);
+        padding: 10px 15px;
+        width: fit-content;
+        box-shadow: 0px 0px 10px#00ffa2;
+        display: none;
+        opacity: 0.8;
+        border-radius: 7px;
+    }
+    .contact2 h3  {
+        right:  -170px;
+    }
+    .contact3 h3  {
+        right:  -140px;
+    }
+    .contact:hover h3 {
+        display: flex;
+    }
+    .contactContainer2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .accounts {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .accounts h2 {
+        font-size: 18px;
+    }
+    .email {
+        margin-right: 20px;
+        width: 94%;
+    }
+    .email h3 {
+        font-size: 25px;
+    }
+    .socialIcon {
+        padding: 16px;
+        background-size: 36px;
+    }
+    .socAcc img {
+        width: 50px;
+    }
+    .socAccText {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 55%;
+    }
+    .socAcc h3{
+        font-size: 28px;
+        margin: 0 10px;
+    }
+    .messageMe {
+        margin: 0;
+        width: 94%;
+    }
+    .messageMe input[type = "text"], .messageMe input[type = "email"] {
+        width: 90%;
+    }
+    .messageMe textarea {
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .webHeader {
+        width: 600px;
+    }
+    .webBody {
+        width: 640px;
+    }
+    .allProjects {
+        width: 320px;
+    }
+    .Home h1 {
+        font-size: 35px;
+    }
+
+    .Home h4 {
+        font-size: 20px;
+    }
+
+    .email {
+        width: 93%;
+    }
+    
+    .socAcc h3{
+        font-size: 20px;
+    }
+    .socialIcon {
+        padding: 12px;
+        background-size: 32px;
+    }
+    .socAcc img {
+        width: 45px;
+        height: 45px;
+    }
+    .messageMe {
+        width: 93%;
+    }
+}
+@media screen and (max-width: 700px) {
+    
+    .Home input {
+        font-size: 14px;
+        height: 40px;
+        
+    }
+    .Home h1 {
+        font-size: 28px;
+    }
+
+    .Home h4 {
+        font-size: 17px;
+    }
+    .webHeader {
+        width: 500px;
+    }
+    .webBody {
+        width: 540px;
+    }
+    .allProjects {
+        width: 100%;
+    }
+    .projectCard {
+        width: 90%;
+    }
+    .projectsNav {
+        display: none;
+    }
+
+    .name h2 {
+        font-size: 20px;
+    }
+    .genderAge h3{
+        font-size: 15px;
+    }
+    .meLabel {
+        font-size: 11px;
+    }
+    .middleName{
+        left:125px ;
+    }
+
+    .lastName{
+        left:215px ;
+    }
+    .contentSecondRow {
+        flex-direction: column;
+        width: 100%;
+    }
+    .mySkills, .knowMe{
+        margin: 0;
+        width: 90%;
+        padding: 15px;
+    }
+    
+    .knowMe {
+        margin-bottom: 20px;
+    }
+    .skills h5 {
+        font-size: 13px;
+    }
+    .contentThirdRow h4 {
+        font-size: 14px;
+    }
+    .contentThirdRow h1 {
+        font-size: 30px;
+    }
+    .awards h5 {
+        font-size: 10px;
+    }
+    .email {
+        width: 92%;
+    }
+    .socAcc h3{
+        font-size: 18px;
+    }
+    .messageMe {
+        width: 92%;
+    }
+}
+@media screen and (max-width: 600px) {
+
+
+    .Home h4 {
+        font-size: 16px;
+    }
+    .mainContent {
+        padding: 15px;
+        padding-right: 10px;
+        height: 530px;
+    }
+    .contentHeader h1 {
+        font-size: 25px;
+    }
+    .contentHeader p {
+        font-size: 12px;
+    }
+    .contentFirstRow, .contentThirdRow {
+        padding: 15px;
+    }
+    .contentThirdRow {
+        border-radius: 10px;
+    }
+    .contentThirdRow h1 {
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .webHeader {
+        width: 400px;
+    }
+    .webHeader ul li a {
+        font-size: 16px;
+    } 
+    .webBody {
+        width: 440px;
+    }
+    .profile {
+        width: 30px;
+    }
+    .profilePic1 {
+        width: 30px;
+    }
+    .contactIcon {
+        padding: 17px;
+        border-radius: 6px;
+    }
+    .details {
+        padding: 20px 0;
+        width: 200px;
+        right: -190px;
+        border-radius: 14px;
+    }
+    .profilePic {
+        width: fit-content;
+    }
+    .profilePic img {
+        width: 90px;
+    }
+    .details h1 {
+        font-size: 16px;
+    }
+    .profileText {
+        width: 140px;
+    }
+    .profileText h3{
+        font-size: 12px;
+    }
+
+    .contentFirstRow {
+        height: max-content;
+        width: 90%;
+    }
+    .name {
+        margin-bottom: 20px;
+    }
+    .name h2 {
+        font-size: 16px;
+    }
+    .genderAge {
+        flex-direction: column;
+    }
+    .genderAge h3{
+        font-size: 16px;
+        width: max-content;
+    }
+    .genderAge div {
+        margin-bottom: 20px;
+    }
+    .meLabel {
+        font-size: 8px;
+    }
+    .middleName{
+        left:100px ;
+    }
+
+    .lastName{
+        left:170px ;
+    }
+
+    .skills h5{
+        font-size: 10px;
+    }
+    .contentThirdRow h4 {
+        width: 90%;
+        font-size: 10px;
+    }
+    .awards h5{ 
+        font-size: 9px;
+        width: fit-content;
+    }
+    #aboutProjects p{
+        font-size: 14px;
+    }
+    .projectCard {
+        width: 85%;
+        flex-direction: column;
+    }
+    .projectCard img {
+        width: 180px;
+        margin-bottom: 10px;
+    }
+    .projectDetails{
+        width: 100%;
+    }
+    .projectCard p {
+        font-size: 15px;
+    }
+    
+    .socAccText {
+        width: 80%;
+    }
+    .socAcc h3{
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .messageMe{
+        width: 90%;
+    }
+    .messageMe input:not(input[type = "submit"]) {
+        width: 87%;
+    }
+    .email {
+        width: 90%;
+        margin-right: 0;
+    }
+    .email h3 {
+        font-size: 20px;
+    }
+
+    .contact h3 {
+        font-size: 15px;
+    }
+    .contact1 h3{
+        right: -205px;
+    }
+    .contact2 h3{
+        right: -145px;
+    }
+    .contact3 h3{
+        right: -118px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .webHeader ul li a {
+        font-size: 14px;
+    }
+    .webHeader ul {
+        width: 180px;
+    }
+    .mainContent {
+        overflow-x: hidden;
+    }
+    .webHeader {
+        width: 300px;
+    }
+    .webBody {
+        width: 340px;
+    }
+    .mainContent{
+        padding-right: 5px;
+    }
+    .educationHeader h4{
+        width: 150px;
+    }
+    .contentFirstRow, .mySkills, .knowMe, .contentThirdRow{
+        width: 85%;
+    }
+    .contentHeader {
+        width: 95%;
+    }
+    .contentThirdRow h1, .contentHeader h1 {
+        width: 85%;
+    }
+    #aboutProjects p {
+        font-size: 12px;
+    }
+    .projectsPage {
+        height: 410px;
+    }
+    .allProjects {
+        margin: 0;
+        width: 95%;
+    }
+    .awards h5 {
+        font-size: 7.8px;
+        border-radius: 8px;
+    }
+    .socAcc {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .socAcc h3 {
+        margin-bottom: 3px;
+        font-size: 17px;
+    }
+    .socAccImg {
+        align-items: center;
+    }
+    .socialIcon {
+        border-radius: 4px;
+        background-size: 23px;
+        padding: 6px;
+    }
+    .socAcc img {
+        width: 35px;
+        height: 35px;
+    }
+    .socAccText {
+        flex-direction: column;
+        align-items: start;
+    }
+    .account, .messageMe {
+        width: 86%;
+    }
+}

@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(32, 37, 59);
+  color: white;
+  font-family: "Share tech", sans-serif;
+  display: flex;
+  height: 750px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.webHeader, .profile, .mainContent {
+  border: 1px solid #b5ffe4;
+  border-radius: 10px;
+  opacity: 0.9;
+  background-color: rgb(44, 51, 77);
+  position: relative;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+  margin-bottom: 15px;
+  transition: 0.7s;
+}
+
+.webHeader:hover, .profile:hover, .mainContent:hover {
+  box-shadow: 1px 1px 10px #9cffdb;
+}
+
+.webBody {
+  display: flex;
+  width:990px;
+  justify-content: space-between;
+  transition: 0.7s;
+}

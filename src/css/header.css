@@ -1,0 +1,51 @@
+
+.webHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 950px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.webHeader img {
+    width: 36px;
+    height: 40px;
+}
+
+.webHeader ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.webHeader ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.webHeader ul li a {
+    font-size: 18px;
+    color: #83FFD2;
+    text-decoration: none;
+    
+    transition: 0.7s;
+    border: none;
+}
+
+.webHeader ul li a:hover {
+    text-shadow: 5px 5px 20px#00ffa2;
+    color: #dafff2;
+}
+
+.webHeader hr {
+    height: 2px;
+    border: none;
+    background-color: #b9ffe5;
+    box-shadow: 5px 5px 20px#00ffa2;
+    position: absolute;
+    bottom: 7px;
+    transition: 1s;
+}
